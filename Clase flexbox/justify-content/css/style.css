@@ -1,0 +1,19 @@
+.segundo-contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(130, 32, 130, 0.726);
+  border: 2px solid black;
+  margin: 10px 0px;
+}
+.flex-item {
+  background-color: rgb(246, 126, 47);
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  /*para que stretch funcione, recordar quitar el heigth del item porque si no lo pisa.*/
+  margin: 10px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+}

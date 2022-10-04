@@ -41,7 +41,7 @@ p {
   display: flex;
   flex-direction: row-reverse;
   padding: 20px;
-  height: 700px;
+  height: 400px;
   background-color: rgba(130, 32, 130, 0.726);
   border: 2px solid black;
   margin: 10px 0px;
@@ -56,12 +56,4 @@ p {
   font-size: 30px;
   line-height: 50px;
   text-align: center;
-}
-.segundo-contenedor {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  background-color: rgba(130, 32, 130, 0.726);
-  border: 2px solid black;
-  margin: 10px 0px;
 }
