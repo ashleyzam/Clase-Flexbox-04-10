@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Flex wrap</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">contacto</a></li>
+      <li><a href="#">nuestra historia</a></li>
+    </ul>
+  </nav>
+  <h1>Aprendiendo flexbox: flex-wrap</h1>
+  <section class="posicion-de-imagen">
+    <img src="assets/flex-wrap.jpg" alt="explicación de flex wrap en flexbox" />
+  </section>
+  <p>
+    Los flex items intentarán encajar todos en una sola linea, a esto podemos modificarlo con
+    la propiedad wrap, que nos permite que los items se ajusten y tengan un
+    cambio de linea. Por defecto esta propiedad esta seteada en nowrap.
+  </p>
+  <section class="contenedor-flex">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">4</div>
+    <div class="flex-item" id="numero-5">5</div>
+    <div class="flex-item">6</div>
+    <div class="flex-item">7</div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: rgb(246, 237, 225);
+}
+h1,
+h2 {
+  text-align: center;
+}
+.que-es-flexbox {
+  margin: 30px 0;
+  color: #2b213a;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+/*↓ esto es para el ejemplo, no lo voy a explicar, al menos no en un principio*/
+.posicion-de-imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.posicion-de-imagen img {
+  width: 30%;
+  border: 2px solid black;
+  margin: 20px 0px;
+}
+/* flex-direction: row; */
+/*por defecto esta seteada en row*/
+/*veremos las 4 propiedades y como actuan. ↓*/
+/* flex-direction: row-reverse; */
+/* flex-direction: column; */
+/* flex-direction: column-reverse; */
+
+.contenedor-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  height: 700px;
+  background-color: rgba(130, 32, 130, 0.726);
+  border: 2px solid black;
+  margin: 10px 0px;
+}
+.flex-item {
+  background-color: rgb(246, 126, 47);
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  /*para que stretch funcione, recordar quitar el heigth del item porque si no lo pisa.*/
+  margin: 10px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+}
+.segundo-contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(130, 32, 130, 0.726);
+  border: 2px solid black;
+  margin: 10px 0px;
+}

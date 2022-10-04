@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+.posicion-de-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posicion-de-imagen img {
+  width: 20%;
+  border: 2px solid black;
+  margin: 30px 0;
+}
+/*sin el height en el contenedor padre no se va a ver, porque estamos alineando verticalmente.*/
+.contenedor-flex {
+  display: flex;
+  height: 500px;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: rgba(130, 32, 130, 0.726);
+  border: 2px solid black;
+}
+.flex-item {
+  background-color: rgb(246, 126, 47);
+  border: 2px solid black;
+  width: 150px;
+  margin: 10px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*
+align-items: center;
+align-items: flex-start los items se alinean en el inicio de nuestro eje cruzado(perpendicular).
+align-items: flex-end los items se alinean en el final de nuestro eje cruzado(perpendicular).
+align-items: stretch; seteado por defecto de igual manera, respetará el max & min width.
+align-items: baseline; funciona con inline-flex
+height: 500px; 
+*/

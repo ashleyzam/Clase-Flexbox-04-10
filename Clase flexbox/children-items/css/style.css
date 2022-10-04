@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  background-color: rgba(130, 32, 130, 0.726);
+  height: 800px;
+}
+.flex-items {
+  background-color: rgb(246, 126, 47);
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  order: 2;
+  flex-grow: 4;
+}
+.flex-order {
+  order: 1;
+  flex-grow: 0;
+  align-self: flex-end;
+}

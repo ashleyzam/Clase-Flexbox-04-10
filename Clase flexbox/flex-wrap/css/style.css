@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: #2b213a;
+}
+.posicion-de-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posicion-de-imagen img {
+  width: 30%;
+}
+.contenedor-flex {
+  display: flex; /*por defecto quedará en row, veremos las 4 propiedades y como actuan.*/
+  flex-wrap: wrap; /* por defecto quedará en nowrap, los flex items intentarán encajar todos en una sola linea, a esto podemos modificarlo con la propiedad wrap, que nos permite que los items se ajusten y tengan un cambio de linea  */
+  /* justify-content: center; */
+  padding: 20px;
+  justify-content: center;
+  background-color: rgba(130, 32, 130, 0.726);
+  border: 2px solid black;
+}
+.flex-item {
+  background-color: rgb(246, 126, 47);
+  border: 1px solid black;
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav {
+  text-align: right;
+}

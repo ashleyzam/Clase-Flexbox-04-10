@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Flexbox</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Aprendiendo flexbox: display / flex-direction</h1>
+  <section class="que-es-flexbox">
+    <h2>¿Que es flexbox?</h2>
+    <p>
+      Flexbox es un modelo unidimensional de layout y un método que puede
+      ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar
+      las capacidades de alineación.
+    </p>
+  </section>
+
+  <!-- <h2>
+      Con la propiedad display:flex definimos que un contenedor padre, será una
+      caja flexible
+    </h2> -->
+  <h2>
+    De manera predeterminada, el eje principal de nuestro flex-container es
+    horizontal y el eje secundario es vertical.
+    <!-- Pero ojo, con la propiedad flex-direction podemos definirle al eje
+      principal, en que dirección se colocará si de manera horizontal por defecto, o vertical -->
+  </h2>
+  <section class="posicion-de-imagen">
+    <img src="./assets/flex-elementos.jpg" alt="explicación de ejes flexbox" />
+    <h2>flex-direction</h2>
+    <p>
+      esta propiedad especifica como los elementos hijos(flex-items) estaran
+      ubicados en su contenedor padre (flex-container)
+
+    </p>
+    <p>flex-direction: row;
+      flex-direction: row-reverse;
+      flex-direction: column;
+      flex-direction: column-reverse;</p>
+    <img src="./assets/flex-direction.jpg" alt="explicacion-flex-direction-css-flexbox" />
+  </section>
+  <!-- 
+    <section class="flex-container"> -->
+  <!-- <p>display: flex; →</p> -->
+  <!-- ↓↓↓ -->
+  <!-- flex direction define como se ubicaran los items en nuestro flex-container -->
+  <!-- <p>flex-direction: row; (por defecto)→</p> -->
+  <!-- ↑↑ El eje principal por defecto es horizontal al aplicar la propiedad display: flex irá horizontalmente de izquierda a derecha -->
+  <!-- <p>flex-direction: row-reverse;←</p> -->
+  <!-- al aplicar la propiedad row-reverse cambiamos el eje principal ← ahora irá horizontalmente de derecha a izquierda -->
+  <!-- <p>flex-direction: column;↓</p> -->
+  <!-- ↑↑ Cambiamos el eje de horizontal a vertical ↓  el eje principal irá de arriba hacia abajo -->
+  <!-- <p>flex-direction: column-reverse;↑</p> -->
+  <!-- ↑↑ Cambiamos el eje de horizontal a vertical ←  el eje principal irá de abajo hacia arriba -->
+  <!-- </section> -->
+
+  <section class="contenedor-flex">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </section>
+  <h2>justify-content:</h2>
+  <p>Esta propiedad define la alineación a lo largo del eje principal</p>
+  <section class="segundo-contenedor">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </section>
+  <!-- <div class="flex-wrap-page">
+      <a href="../flex-wrap/index.html" target="_blank">flex-wrap↗</a>
+    </div> -->
+</body>
+
+</html>
